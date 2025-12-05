@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>My Portfolio</title>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="header-modern" role="banner">
+  <div class="header-left">
+    <a href="#" class="logo" aria-label="Homepage">AZ</a>
+    <nav class="desktop-nav" role="navigation" aria-label="Primary navigation">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </div>
+
+  <div class="header-right">
+    <button id="darkModeToggle" aria-label="Toggle dark mode" class="btn-icon"><i class="fas fa-moon"></i></button>
+    <button id="menuToggle" aria-label="Toggle mobile menu" class="btn-icon"><i class="fas fa-bars"></i></button>
+    <a href="https://github.com/azr1e" target="_blank" rel="noopener" class="github-btn">GitHub</a>
+  </div>
+</header>
+
+<nav id="mobileNav" class="mobile-nav" aria-hidden="true" role="navigation">
+  <a href="#about" class="nav-link">About</a>
+  <a href="#skills" class="nav-link">Skills</a>
+  <a href="#projects" class="nav-link">Projects</a>
+  <a href="#contact" class="nav-link">Contact</a>
+</nav>
+
+<main>
+  <section id="about" class="hero-section" tabindex="-1">
+    <div class="hero-text">
+      <h1>Azriel James Salanatin</h1>
+      <h3>BSIT Student</h3>
+      <p>I enjoy learning new technologies and creating clean, simple projects that sharpen my skills.</p>
+      <a href="#projects" class="hero-btn" aria-label="See my work">See My Projects</a>
+    </div>
+    <img src="images/Portfolio-pfp.png" alt="Azriel James Salanatin profile picture" class="hero-img" />
+  </section>
+
+  <section id="skills" class="skills-modern" tabindex="-1">
+    <h2>Skills</h2>
+    <div class="skill-box">
+      <span class="skill-item">HTML</span>
+      <span class="skill-item">CSS</span>
+      <span class="skill-item">Java</span>
+      <span class="skill-item">JavaScript</span>
+      <span class="skill-item">UI Design</span>
+    </div>
+  </section>
+
+  
+  <section id="projects" class="featured-projects" tabindex="-1">
+    <h2>Projects</h2>
+
+    <div class="featured-grid">
+
+      
+      <article class="featured-card">
+        <div class="card-top letter-card letter-I">
+          <span>I</span>
+        </div>
+        <div class="card-content">
+          <h3>Individual Activity</h3>
+          <div class="tag-box">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+          </div>
+          <div class="card-links">
+            <a href="https://myoldportfolioindividual.netlify.app/" target="_blank" class="link-btn">
+              <i class="fas fa-external-link-alt link-icon"></i> Live Site
+            </a>
+          </div>
+        </div>
+      </article>
+
+      
+      <article class="featured-card">
+        <div class="card-top letter-card letter-G">
+          <span>G</span>
+        </div>
+        <div class="card-content">
+          <h3>Group Activities</h3>
+          <div class="tag-box">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/EDProgrammerist/S.I.A.P-Group-Activity" target="_blank" class="link-btn">
+              <i class="fab fa-github link-icon"></i> GitHub
+            </a>
+            <a href="https://www.figma.com/slides/al1cZp3trJXyYrV62f6xaQ/Untitled?node-id=1-44" target="_blank" class="link-btn">
+              <i class="fab fa-figma link-icon"></i> Figma
+            </a>
+          </div>
+        </div>
+      </article>
+
+      
+      <article class="featured-card">
+        <div class="card-top letter-card letter-F">
+          <span>F</span>
+        </div>
+        <div class="card-content">
+          <h3>Figma Design</h3>
+          <div class="tag-box">
+            <span class="tag">Design</span>
+          </div>
+          <div class="card-links">
+            <a href="https://www.figma.com/design/G8vu9wubuJXfLmQsXzgApE/Portfolio?node-id=0-1&p=f&t=F5DtxcplMy2IwTj8-0" target="_blank" class="link-btn">
+              <i class="fab fa-figma link-icon"></i> Figma
+            </a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="contact" class="contact-modern" tabindex="-1">
+    <h2>Contact</h2>
+    <div class="contact-links" role="list">
+      <a href="https://github.com/azr1e" target="_blank" rel="noopener" aria-label="GitHub profile" role="listitem"><i class="fab fa-github"></i></a>
+      <a href="mailto:azrielworkbusiness@gmail.com" aria-label="Send email" role="listitem"><i class="fas fa-envelope"></i></a>
+    </div>
+    <p>© 2025 Azriel James Salanatin — All Rights Reserved</p>
+  </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
